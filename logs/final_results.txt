@@ -1,0 +1,65 @@
+P26AI0002 - Machine Learning Assignment 2
+Seed: 260002
+
+==============================
+Q1 - SINGLE TREE
+==============================
+Selected max_depth: None
+Selected min_samples_leaf: 2
+
+Train accuracy: 0.9917
+Validation accuracy: 0.6250
+Test accuracy: 0.6125
+Leaves: 42
+Mean samples per leaf: 5.714
+Single-sample leaf fraction: 0.000
+
+==============================
+Q1 - BAGGING
+==============================
+Selected B: 200
+
+Train accuracy: 1.0000
+Validation accuracy: 0.8750
+Clean test accuracy: 0.8250
+Masked test accuracy: 0.7875
+
+OOB accuracy at B=200: 0.8417
+
+==============================
+Q2 - SAMME BOOSTING
+==============================
+Selected weak learner depth: 4
+Selected rounds: 100
+
+Clean test accuracy: 0.4750
+Masked test accuracy: 0.2750
+
+==============================
+Q3 - BIAS AND VARIANCE
+==============================
+
+Single Tree
+Bias^2: 0.403667
+Variance: 0.618000
+Mean test accuracy: 0.489167
+Std test accuracy: 0.051814
+
+Bagging
+Bias^2: 0.523818
+Variance: 0.020325
+Mean test accuracy: 0.746667
+Std test accuracy: 0.050820
+
+Boosting
+Bias^2: 0.885323
+Variance: 0.017573
+Mean test accuracy: 0.311250
+Std test accuracy: 0.088055
+
+==============================
+FINAL CLEAN / MASKED
+==============================
+Single Tree: 0.6125 / 0.0750
+Bagging:     0.8250 / 0.7875
+Boosting:    0.4750 / 0.2750
